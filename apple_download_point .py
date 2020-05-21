@@ -11,10 +11,10 @@ from PIL import Image
 
 url_apple_download = 'http://www.ggkjplus.com/admin/#/login'
 #chromedriver = './chromedriver.exe'
-chromedriver = 'C:\\17ce\\chromedriver.exe'
+chromedriver = '/usr/bin/chromedriver.exe'
 
 
-account_apple = 'your_accound_here'
+account_apple = 'your_account_here'
 password_apple = 'your_password_here'
 
 options = webdriver.ChromeOptions()
